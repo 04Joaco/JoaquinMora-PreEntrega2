@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width: 100%;
+}
+/* ---------------------------------------------------------------------------------- Index o inicio */
+
+header{
+    background-color: rgb(202, 229, 253);
+    /* background-image: url(../img/header2.jpg); */
+    background-repeat: round;
+}
+
+.caja-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja-name img{
+    height: 45px;
+    width: 45px;
+}
+.caja-name h1{
+    font-size: 40px;
+}
+
+/* -----------------------------------------------------------------------------------------  sobre nosostros */
+
+.nosotros{
+    background-color: rgb(129, 129, 129);
+    background-repeat: round;
+}
+.nosotros h5{
+    color: white;
+}
+.nosotros p{
+    color: white;
+}
+
+.atencion{
+    text-align: center;
+    margin: 0px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------- ifremes */
+
+.ifre{
+    display: flex;
+    justify-content: space-around;
+}
+.mas{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 481px){
+    .ifre{
+        display: block;
+        width: 480px;
+    }
+}
+/* -------------------------------------------------------------------------------------------------------- main de noticias o seguridad */
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------ FOOTER */
+@media (max-width: 480px) {
+    .copy p {
+    font-size: 8px;
+    }
+}
+
+.footer- {
+    position: end;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(202, 229, 253);
+    background-repeat: round;
+}
+
+
+.redes a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+.redes p{
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------ espacios en blanco */
+.espacio{
+    height: 100px;
+    width: 100%;
+}
+
+.espacio-30px{
+    height: 30px;
+    width: 100%;
+}
+/* ------------------------------------------------------------------------------- lineas negras */
+.espacio-chico{
+    background-color: black;
+    height: 3px;
+    width: 100%;
+}
+.espacio-muy{
+    background-color: black;
+    height: 1px;
+    width: 100%;
+}
