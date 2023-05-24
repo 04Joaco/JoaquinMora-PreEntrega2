@@ -9,7 +9,7 @@ body{
 /* ---------------------------------------------------------------------------------- Index o inicio */
 
 header{
-    background-color: rgb(202, 229, 253);
+    background-color: rgb(203, 229, 253);
     /* background-image: url(../img/header2.jpg); */
     background-repeat: round;
 }
@@ -79,7 +79,7 @@ header{
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(202, 229, 253);
+    background-color: rgb(203, 229, 253);
     background-repeat: round;
 }
 
